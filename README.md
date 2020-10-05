@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Configuration
+
+The .env file holds two values that should be updated for your deployment/
+REACT_APP_LAMBDA_URL: This should be the output of the Serverless deployment of the code assessment API.
+REACT_APP_S3_URL: This should be a public s3 bucket with the images preuploaded for comparison.
+
 ## Available Scripts
 
 In the project directory, you can run:
